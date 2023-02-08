@@ -4,9 +4,10 @@ import path from 'path';
 
 export default defineConfig({
   // plugins: [eslint()]
+  base: './',
   resolve: {
     alias: {
-      '@assets': path.join(__dirname, '/src/assets')
+      '@assets': path.join(__dirname, 'src/assets')
     }
   }
 });
